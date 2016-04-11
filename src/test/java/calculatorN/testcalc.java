@@ -27,5 +27,12 @@ public class testcalc {
 		assertEquals(20,calc.getResult());
 		
 	}
+	@Test
+	public void div(){
+		calc calc = new calc();
+		
+		calc.div(100, 20);
+		assertEquals(5,calc.getResult());
+	}
 
 }
