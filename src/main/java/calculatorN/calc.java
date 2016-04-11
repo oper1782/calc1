@@ -6,7 +6,10 @@ public class calc {
 	public void add(int x, int y){
 		result = x + y;
 	}
-	public int getRsult(){
+	public void sub(int x, int y){
+		result = x-y;
+	}
+	public int getResult(){
 		return result;
 	}
 }
