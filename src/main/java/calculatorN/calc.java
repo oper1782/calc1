@@ -14,7 +14,7 @@ public class calc {
 		result = x*y;
 	}
 	public void div(int x,int y){
-		if(y!=0)
+		if(y!=0)//분모가 0인경우
 		result = x/y;
 		else 
 			System.out.println("Error : 분모가  0입니다");
